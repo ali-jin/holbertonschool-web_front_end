@@ -208,7 +208,11 @@ ul.row {
     padding: 0.5rem;
 }
 
-.social-link, .social-link svg{
+.social-link {
     display: block;
+    fill: var(--text-color);
+}
+
+.social-link svg > svg {
     fill: var(--text-color);
 }
