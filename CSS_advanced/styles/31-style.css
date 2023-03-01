@@ -251,7 +251,6 @@ a:active {
 
 .card-testimonial {
     text-align: center;
-    position: relative;
 }
 
 .card-testimonial .card-avatar {
@@ -267,7 +266,7 @@ a:active {
 }
 
 .card-testimonial .card-quote {
-    position: absolute;
+    position: relative;
 }
 
 .card-testimonial .card-quote::before {
