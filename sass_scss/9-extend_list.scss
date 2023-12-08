@@ -1,0 +1,19 @@
+%primary-font-size {
+    font-size: 12px;
+}
+$text-color-success: #00FF00;
+$text-color-warning: #FF0000;
+
+.info {
+    @extend %primary-font-size;
+}
+
+.success {
+    @extend %primary-font-size;
+    color: $text-color-success;
+}
+
+.warning {
+    @extend %primary-font-size;
+    color: $text-color-warning;
+}
