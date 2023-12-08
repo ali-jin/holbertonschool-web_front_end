@@ -1,0 +1,11 @@
+$body-margin: 0px;
+$body-padding: 0px;
+$margin-text: 10px;
+
+body {
+    margin: $body-margin;
+    padding: $body-padding;
+    p {
+        margin: $margin-text;
+    }
+}
