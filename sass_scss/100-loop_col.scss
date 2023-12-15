@@ -1,7 +1,5 @@
-$width-value: 100%;
-
 @for $i from 1 through 4 {
     .col-#{$i} {
-        width: calc($width-value / $i);
+        width: calc(100% / $i);
     }
 }
