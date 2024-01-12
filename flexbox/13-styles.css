@@ -598,7 +598,7 @@ ul.row {
     display: block;
 }
 
-.post-meta-list li[class^="post-meta-"] {
+.post-meta-list [class^="post-meta-"] {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: var(--color-light-grey) 0.2rem solid;
