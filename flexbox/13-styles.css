@@ -604,7 +604,7 @@ ul.row {
     border-bottom: var(--color-light-grey) 0.2rem solid;
 }
 
-.post-meta-list li[class^="post-meta-"]:last-child {
+.post-meta-list [class^="post-meta-"]:last-child {
     border: none;
     margin-bottom: 3rem;
 }
