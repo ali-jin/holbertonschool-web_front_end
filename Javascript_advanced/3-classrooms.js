@@ -1,3 +1,8 @@
+/**
+ * Create a classroom with students seats.
+ * @param {number} numbersOfStudents - The number of students in a classroom.
+ * @returns {Array} - An array of student seat functions.
+ */
 function createClassRoom(numbersOfStudents) {
     function studentSeat(seat) {
         return function() {

@@ -1,3 +1,8 @@
+/**
+ * Creates a closure function that display a message.
+ * @param {string} fullName 
+ * @returns {Function}
+ */
 function welcomeMessage(fullName) {
     return function() {
         alert("Welcome " + fullName);
