@@ -1,5 +1,5 @@
 /**
- * A function that change the appearance of the wep page.
+ * A function that change the appearance of the wep page, with button.
  * @param {number} size 
  * @param {string} weight 
  * @param {string} transform 
