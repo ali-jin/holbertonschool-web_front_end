@@ -1,5 +1,5 @@
 /**
- * 
+ * Print the payment amount.
  * @param {number} amount 
  */
 function processPayment(amount) {
@@ -7,7 +7,7 @@ function processPayment(amount) {
 }
 
 /**
- * 
+ * Print the process order.
  * @param {number} orderId 
  * @param {number} amount 
  */
