@@ -4,8 +4,8 @@
  * @returns {boolean} - return true or false.
  */
 function isPrime(number) {
-    var count = 0;
-    for (var i = 1; i <= number; i++) {
+    let count = 0;
+    for (let i = 1; i <= number; i++) {
         if (number % i == 0) {
             count = count + 1;
         }
